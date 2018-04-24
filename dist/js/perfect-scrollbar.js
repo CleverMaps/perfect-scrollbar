@@ -651,8 +651,8 @@ function bindMouseWheelHandler(element, i) {
 
     if (e.deltaMode && e.deltaMode === 1) {
       // Firefox in deltaMode 1: Line scrolling
-      deltaX *= 10;
-      deltaY *= 10;
+      deltaX *= 36;
+      deltaY *= 36;
     }
 
     if (deltaX !== deltaX && deltaY !== deltaY/* NaN checks */) {
